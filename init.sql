@@ -4,6 +4,9 @@ GRANT ALL PRIVILEGES ON *.* TO 'scott'@'localhost';
 GRANT ALL PRIVILEGES ON *.* TO 'scott'@'%';
 FLUSH PRIVILEGES;
 
+create database lecture;
+use lecture;
+
 CREATE TABLE IF NOT EXISTS `dept` (
   `DEPTNO` int(11) DEFAULT NULL,
   `DNAME` varchar(14) DEFAULT NULL,
